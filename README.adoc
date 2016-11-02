@@ -1,0 +1,8 @@
+== docker-java-assertj
+
+Custom assertions for https://github.com/docker-java/docker-java[docker-java] project.
+
+[source,java]
+----
+import static com.github.dockerjava.assertions.DockerJavaAssertions.assertThat;
+----
