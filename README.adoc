@@ -1,6 +1,29 @@
-== docker-java-assertj
+== assertj-docker-java
+
+image:https://travis-ci.org/eddumelendez/assertj-docker-java.svg?branch=master["Build Status", link="https://travis-ci.org/eddumelendez/assertj-docker-java"]
 
 Custom assertions for https://github.com/docker-java/docker-java[docker-java] project.
+
+=== Maven
+
+[source,xml]
+----
+<dependency>
+    <groupId>com.github.dockerjava.assertj</groupId>
+    <artifactId>assertj-docker-java</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <scope>test</scope>
+</dependency>
+----
+
+=== Gradle
+
+[source,groovy]
+----
+testCompile "com.github.dockerjava.assertj:assertj-docker-java:1.0.0-SNAPSHOT"
+----
+
+=== Import
 
 [source,java]
 ----
